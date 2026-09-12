@@ -1,2 +1,0 @@
-# econometria-io
-
