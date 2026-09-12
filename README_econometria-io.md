@@ -4,16 +4,23 @@ Trabajo de **Econometría Aplicada a Organización Industrial** — Maestría en
 
 ## Contenido
 
-Estimación de demanda con el modelo **BLP** (Berry, Levinsohn & Pakes), incluyendo código, datos, notas de método y resultados.
+Estimación de demanda en organización industrial, desde modelos **logit** hasta el modelo **BLP** (Berry, Levinsohn & Pakes). El código sigue un pipeline numerado y reproducible:
+
+- Preparación de datos
+- Logit (MCO)
+- Logit con efectos fijos (marca y tienda)
+- Estimación por variables instrumentales (costos e instrumentos de Hausman)
+- Cálculo de elasticidades
+- Preparación de datos para BLP
 
 ## Herramientas
 
-<!-- Completá con el lenguaje que usaste, p. ej. Python (pyblp), R o MATLAB -->
+Python
 
 ## Estructura del repositorio
 
-- `code/` — código de estimación
+- `code/` — pipeline de estimación en Python (`01_datos.py` … `08_datos_blp.py`)
 - `data/` — datos
 - `output/` — resultados
-- `notas/` — notas del método
+- `notas/` — notas de método
 - consigna y documento de métodos (PDF)
